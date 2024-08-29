@@ -1,0 +1,92 @@
+[
+  {
+    "TableName": "@EXX_INDO_BASE",
+    "Name": "EXX_INDO_PROV",
+    "Description": "Codigo proveedor",
+    "Type": "db_Alpha",
+    "SubType": "st_None",
+    "LinkedSystemObject": null,
+    "LinkedUDO": null,
+    "LinkedTable": null,
+    "EditSize": 50,
+    "DefaultValue": null,
+    "ValidValues": []
+  },
+  {
+    "TableName": "@EXX_INDO_BASE",
+    "Name": "EXX_INDO_CLIE",
+    "Description": "Codigo cliente",
+    "Type": "db_Alpha",
+    "SubType": "st_None",
+    "LinkedSystemObject": null,
+    "LinkedUDO": null,
+    "LinkedTable": null,
+    "EditSize": 50,
+    "DefaultValue": null,
+    "ValidValues": []
+  },
+  {
+    "TableName": "OITM",
+    "Name": "EXX_INDO_BASE",
+    "Description": "Sociedad propietaria",
+    "Type": "db_Alpha",
+    "SubType": "st_None",
+    "LinkedSystemObject": null,
+    "LinkedUDO": null,
+    "LinkedTable": "EXX_INDO_BASE",
+    "EditSize": 50,
+    "DefaultValue": null,
+    "ValidValues": []
+  },
+  {
+    "TableName": "ORDR",
+    "Name": "EXX_INDO_ESTADO",
+    "Description": "EXX: Estado migracion",
+    "Type": "db_Alpha",
+    "SubType": "st_None",
+    "LinkedSystemObject": null,
+    "LinkedUDO": null,
+    "LinkedTable": null,
+    "EditSize": 2,
+    "DefaultValue": "NA",
+    "ValidValues": [
+      {
+        "Value": "NA",
+        "Description": "No aplica"
+      },
+      {
+        "Value": "PE",
+        "Description": "Pendiente"
+      },
+      {
+        "Value": "MI",
+        "Description": "Migrado"
+      }
+    ]
+  },
+  {
+    "TableName": "ORDR",
+    "Name": "EXX_INDO_BASE",
+    "Description": "Sociedad origen",
+    "Type": "db_Alpha",
+    "SubType": "st_None",
+    "LinkedSystemObject": null,
+    "LinkedUDO": null,
+    "LinkedTable": "EXX_INDO_BASE",
+    "EditSize": 50,
+    "DefaultValue": null,
+    "ValidValues": []
+  },
+  {
+    "TableName": "ORDR",
+    "Name": "EXX_INDO_DEOR",
+    "Description": "DocEntry Origen",
+    "Type": "db_Alpha",
+    "SubType": "st_None",
+    "LinkedSystemObject": null,
+    "LinkedUDO": null,
+    "LinkedTable": null,
+    "EditSize": 50,
+    "ValidValues": []
+  }
+]

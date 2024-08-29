@@ -1,0 +1,26 @@
+[
+  {
+    "Principal": true,
+    "url": "https://172.16.210.12:50000/b1s/v1",
+    "baseDeDatos": "ZSBO_OVERALL_PI",
+    "NombreSociedad": "**PRUEBAS INTEGRALES OVERALL**",
+    "usuario": "admin1",
+    "contrasena": "m1r1",
+    "CodigoCliente": "C20467534026",
+    "CodigoProveedor": "P20467534026",
+    "migraSocio": true,
+    "migraArticulo": false
+  },
+  {
+    "Principal": false,
+    "url": "https://172.16.210.12:50000/b1s/v1",
+    "baseDeDatos": "ZSBO_OVERALL_PU1",
+    "NombreSociedad": "**PRUEBAS UNITARIAS ZSBO_OVERALL_PU1**",
+    "usuario": "admin1",
+    "contrasena": "m1r1",
+    "CodigoCliente": "C20601743958",
+    "CodigoProveedor": "P20601743958",
+    "migraSocio": true,
+    "migraArticulo": true
+  }
+]
